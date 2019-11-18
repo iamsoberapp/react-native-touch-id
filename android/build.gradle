@@ -10,7 +10,7 @@ buildscript {
   }
 
   dependencies {
-    classpath("com.tools.build:gradle:${rootProject.ext.get['gradleBuildToolsVersion']}")
+    classpath("com.tools.build:gradle:$gradleBuildToolsVersion")
   }
 }
 
