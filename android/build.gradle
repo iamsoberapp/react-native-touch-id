@@ -10,7 +10,7 @@ buildscript {
   }
 
   dependencies {
-    classpath("com.tools.build:gradle:$gradleBuildToolsVersion")
+    classpath("com.android.tools.build:gradle:$gradleBuildToolsVersion")
   }
 }
 
